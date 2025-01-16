@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    padding:50px;
+    font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#777;
+    font-weight:300;
+  }
+  
+
+  .container {
+    margin: 0 auto;
+    max-width: 860px;
+  }
+  
+  
+  /* Header Styles */
+  .header {
+    text-align: center;
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .profile {
+        width: 80%;
+    margin: 0 auto;
+    padding: 70px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
+
+    
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .profile-info {
+    position: relative;
+    top: 10px;
+  }
+  
+  .profile-info p {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social Links */
+/* Social Links Container */
+.social-links {
+  position: absolute;
+  top: 550px;
+  left: 400px;
+
+    display: flex;
+    justify-content: center; /* Center the icons inside the profile box */
+    gap: 15px; /* Add space between the icons */
+}
+
+/* Social Icons */
+.social-icon {
+    width: 28px;
+    height: 28px;
+    border: 0;
+}
+
+  
+  /* Content Section */
+  section.content {
+    margin-top: 50px;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .education, .skills, .certifications {
+    margin-top: 15px;
+  }
+  
+  .edu-item, .skills div, .certifications div {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  /* Positioning Layout */
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  
+  /* Links and other styles */
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
