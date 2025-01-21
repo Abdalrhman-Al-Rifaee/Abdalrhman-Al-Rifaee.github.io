@@ -1,5 +1,6 @@
 /* General Styles */
 body {
+    text-align: justify;
     padding:50px;
     font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color:#777;
@@ -26,10 +27,10 @@ body {
   }
   
   .profile {
-        width: 80%;
+    width: 70%;
     margin: 0 auto;
-    padding: 70px;
-    border-radius: 8px;
+    padding: 60px;
+    border-radius: 9px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     background-color: white;
 
@@ -69,12 +70,6 @@ body {
   /* Social Links */
 /* Social Links Container */
 .social-links {
-  position: absolute;
-  top: 550px;
-  left: 400px;
-
-    display: flex;
-    justify-content: center; /* Center the icons inside the profile box */
     gap: 15px; /* Add space between the icons */
 }
 
@@ -117,7 +112,7 @@ body {
   
   /* Links and other styles */
   a {
-    color: #007BFF;
+    color: #007bff;
     text-decoration: none;
   }
   
